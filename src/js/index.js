@@ -15,12 +15,20 @@ const higherAndLess = (numbers) => {
   if (
     arrayAddition[0] > arrayAddition[1] &&
     arrayAddition[0] > arrayAddition[2]
-  );
+  ) {
+    console.log(`El número mayor es ${arrayAddition}`);
+  }
 };
 
 const threeNumberMedia = (arrayAddition) => {
   const addition = arrayAddition[0] + arrayAddition[1] + arrayAddition[2];
   const media = (arrayAddition[0] + arrayAddition[1] + arrayAddition[2]) / 3;
+  if (
+    arrayAddition[0] > arrayAddition[1] &&
+    arrayAddition[0] > arrayAddition[2]
+  ) {
+    console.log(`El número mayor es ${arrayAddition}`);
+  }
 
   console.log(`La suma de todos los numeros es ${addition}`);
   console.log(`La media de todos los numeros es ${media}`);
